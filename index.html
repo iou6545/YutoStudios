@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YutoStudio | Головна</title>
+    <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="nav">
+            <div class="_container">
+                <div class="nav__logo">
+                    <img src="./assets/images/logo.png">
+                </div>
+                <div class="nav__list">
+                    <a class="nav__list-item" href="dsc.gg/yuto_studio">Група ДС</a>
+                    <a class="nav__list-item" modal-open="rules">Правила</a>
+                </div>
+                <div class="nav__control">
+                    <div class="nav__control-item nav__control-online">
+                        <img src="./assets/images/icons/activity.svg" class="nav__control-online__icon">
+                        <div class="nav__control-online__info">
+                            <p class="nav__control-online__hover">Натисніть щоб скопіювати посилання діскорд</p>
+                            <p class="nav__control-online__ip">dsc.gg/yuto_studio</p>
+                            <p class="nav__control-online__status">Ми вас чекаємо <span id="server0" class="nav__control-online__checked">:)</span></p>
+                        </div>
+                    </div>
+                    <div class="nav__control-item nav__control-theme" theme>
+                        <img src="./assets/images/icons/moon.svg" class="nav__control-theme__icon">
+                    </div>
+                    <div class="nav__control-item nav__control-burger">
+                        <div class="nav__control-burger__line nav__control-burger__line1"></div>
+                        <div class="nav__control-burger__line nav__control-burger__line2"></div>
+                        <div class="nav__control-burger__line nav__control-burger__line3"></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="news">
+            <div class="_container">
+                <h3 class="news__title textstyle__title">Трохи про нас</h3>
+                <div class="news__content">
+                   <div class="news__info">
+                       <span class="textstyle__title">YutoStudio</span> <br>
+                       Мы перші хто перекладає плагіни майнкрафт просто так, та на замовлення!
+                   </div>
+                   <div class="news__image">
+                       <img src="./assets/images/products/varden.png">
+                   </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="donate">
+            <div class="_container">
+                <h3 class="donate__title textstyle__title">Переклади</h3>
+                <div class="donate__box">
+                    <div class="donate__sidebar">
+                        <div class="donate__sidebar-header">
+                            <h6 class="donate__sidebar-title textstyle__title">Категорії</h6>
+
+                            <div class="donate__sidebar-carts opened">
+                                <button class="donate__sidebar-item active" category-control="survival">
+                                    Безкоштовні
+                                </button>
+                                <button class="donate__sidebar-item"" category-control="grief">
+                                    Платні
+                                </button>
+                                <button class="donate__sidebar-item"" category-control="cases">
+                                    Збірки серверів
+                                </button>
+                                <button class="donate__sidebar-item"" category-control="other">
+                                    Іньше
+                                </button>
+                            </div>
+                        </div>
+
+                        <p class="donate__sidebar-footer">
+                            Перед викачкою або купівлею, прочитайте <a href="#" class="textstyle__link">наші умови, Збірки, та плагіни покупати в нашому дискорд сервері!</a>.
+                        </p>
+                    </div>
+
+                    <div class="donate__products">
+                        <div class="donate__products-title textstyle__title">Виберіть те що вам треба</div>
+
+                        <div class="donate__products-carts active" category-products="survival">
+                            <div class="donate__products-item" product-id="kolt" block-amount>
+                                <div class="donate__products-image">
+                                    <img src="./assets/images/products/EssentialsX.jpg">
+                                </div>
+                                <p class="donate__products-name">EssentialsX</p> 2.20.1
+                                <p class="donate__products-price">Придбати</p>
+                                <div class="donate__products-buttons">
+                                    <button modal-product="description" class="donate__products-button donate__products-info">Информація</button>
+                                    <button modal-product="buy" class="donate__products-button donate__products-buy">Завантажити</button>
+                                </div>
+                                <p class="donate__products-description">EssentialsX — це важливий набір плагінів для серверів Spigot, що включає понад 130 команд і незліченну кількість функцій для серверів будь-якого масштабу!</p>
+                            </div>
+                            <div class="donate__products-item" product-id="elprimo" block-amount>
+                                <div class="donate__products-image">
+                                    <img src="./assets/images/products/SkinsRestorer.jpg">
+                                </div>
+                                <p class="donate__products-name">SkinsRestorer</p> 15.0.6
+                                <p class="donate__products-price">Придбати</p>
+                                <div class="donate__products-buttons">
+                                    <button modal-product="description" class="donate__products-button donate__products-info">Информація</button>
+                                    <button modal-product="buy" class="donate__products-button donate__products-buy">Завантажити</button>
+                                </div>
+                                <p class="donate__products-description">SkinsRestorer — це плагін, який відновлює скіни для серверів і мереж у автономному режимі, що дає гравцям можливість змінювати свої скіни, ввівши одну команду.</p>
+                            </div>
+                            <div class="donate__products-item" product-id="kapitangavs" block-amount>
+                                <div class="donate__products-image">
+                                    <img src="./assets/images/products/Chat Manager.jpg">
+                                </div>
+                                <p class="donate__products-name">Chat Manager</p> 3.7.7
+                                <p class="donate__products-price">Придбати</p>
+                                <div class="donate__products-buttons">
+                                    <button modal-product="description" class="donate__products-button donate__products-info">Информація</button>
+                                    <button modal-product="buy" class="donate__products-button donate__products-buy">Завантажити</button>
+                                </div>
+                                <p class="donate__products-description">Менеджер чату — це розширений плагін для керування чатом, який розроблявся два з половиною роки! Менеджер чатів має практично все, що вам потрібно для найкращого керування чатами! Ми пропонуємо все необхідне, щоб зменшити кількість спаму, шапки, реклами, лайки, атак ботів на ваш сервер!</p>
+                            </div>
+                            <div class="donate__products-item" product-id="leon" block-amount>
+                                <div class="donate__products-image">
+                                    <img src="./assets/images/products/ElytraRacing.jpg">
+                                </div>
+                                <p class="donate__products-name">ElytraRacing</p> 1.5.3.18
+                                <p class="donate__products-price">Придбати</p>
+                                <div class="donate__products-buttons">
+                                    <button modal-product="description" class="donate__products-button donate__products-info">Информация</button>
+                                    <button modal-product="buy" class="donate__products-button donate__products-buy">Купить</button>
+                                </div>
+                                <p class="donate__products-description">Що таке ElytraRacing?
+                                    Високоякісний плагін міні-ігри Minecraft, який ідеально підходить для будь-якого сервера. Цей плагін створює незабутні моменти, і в нього весело грати, залишаючись конкурентоспроможним!</p>
+                            </div>
+                        </div>
+                        <div class="donate__products-carts" category-products="grief">
+                            <div class="donate__products-item" product-id="kolt" block-amount>
+                                <div class="donate__products-image">
+                                    <img src="./assets/images/products/KitPvP.jpg">
+                                </div>
+                                <p class="donate__products-name">KitPvP</p> 2.2.2
+                                <p class="donate__products-price">Придбати</p>
+                                <div class="donate__products-buttons">
+                                    <button modal-product="description" class="donate__products-button donate__products-info">Информация</button>
+                                    <button modal-product="buy" class="donate__products-button donate__products-buy">Купить</button>
+                                </div>
+                                <p class="donate__products-description">Ви шукаєте плагін KitPvP, який має багато функцій разом із чудовою підтримкою? KitPvP має такі чудові функції, як спеціальні набори, спеціальні здібності, таблиці лідерів, попередній перегляд комплектів, серії вбивств та багато іншого, без жодних залежностей!</p>
+                            </div>
+                            <div class="donate__products-item" product-id="elprimo" block-amount>
+                                <div class="donate__products-image">
+                                    <img src="./assets/images/products/TNT Run.jpg">
+                                </div>
+                                <p class="donate__products-name">TNT Run</p> 2.4.9
+                                <p class="donate__products-price">Придбати</p>
+                                <div class="donate__products-buttons">
+                                    <button modal-product="description" class="donate__products-button donate__products-info">Информация</button>
+                                    <button modal-product="buy" class="donate__products-button donate__products-buy">Купить</button>
+                                </div>
+                                <p class="donate__products-description">Гравці (здебільшого до 12 або 24, залежно від карти) розміщуються на піщано-гравійній підлозі. Блоки, на яких ви бігаєте або стоїте, зникнуть або «впадуть» після короткої затримки. Після падіння ви опинитесь на наступному поверсі. Кожна карта має кілька поверхів, по яких можна бігти, причому найнижчий поверх знаходиться над порожнечею, що виключає вас. Мета полягає в тому, щоб залишитися останнім живим гравцем, що стає все складнішим, оскільки доступний простір зменшується.</p>
+                            </div>
+                            <div class="donate__products-item" product-id="kapitangavs" block-amount>
+                                <div class="donate__products-image">
+                                    <img src="./assets/images/products/PlaceholderAPI.jpg">
+                                </div>
+                                <p class="donate__products-name">PlaceholderAPI</p> 2.11.5
+                                <p class="donate__products-price">Придбати</p>
+                                <div class="donate__products-buttons">
+                                    <button modal-product="description" class="donate__products-button donate__products-info">Информация</button>
+                                    <button modal-product="buy" class="donate__products-button donate__products-buy">Купить</button>
+                                </div>
+                                <p class="donate__products-description">PlaceholderAPI — це плагін для серверів Spigot, який дозволяє власникам серверів відображати інформацію з різних плагінів в єдиному форматі.</p>
+                            </div>
+                            <div class="donate__products-item" product-id="leon" block-amount>
+                                <div class="donate__products-image">
+                                    <img src="./assets/images/products/MC Pets.jpg">
+                                </div>
+                                <p class="donate__products-name">MC Pets</p> 4.1.2
+                                <p class="donate__products-price">Придбати</p>
+                                <div class="donate__products-buttons">
+                                    <button modal-product="description" class="donate__products-button donate__products-info">Информация</button>
+                                    <button modal-product="buy" class="donate__products-button donate__products-buy">Купить</button>
+                                </div>
+                                <p class="donate__products-description">⭕ 3D modeled pets with ANY behavior, skills, effects and more based on MythicMobs and ModelEngine                   
+
+                                    ⭕ Create mounts using ModelEngine and implement them easily with MCPets
+                                    
+                                    ⭕ Unique inventory per pet
+                                    
+                                    ⭕ Pet statistics with MCPets 3.0.0 : experience, health, damage modifiers for skills and more
+                                    
+                                    ⭕ Taming, evolutions and pet food system with MCPets 3.0.0
+                                    
+                                    ⭕ Customizable in-game GUI interface : summon pets, show their stats, custom names, mount, skins, inventory... Organizable in categories
+                                    
+                                    ⭕ Give orders to your pets using the Signal Stick
+                                    
+                                    ⭕ Permission-based system and customizable permission for each pet, showing the pet or not in the GUI depending on the player having the permission for it
+                                    
+                                    ⭕ Flags to manage pet interactions with WorldGuard
+                                    
+                                    ⭕ MySQL support</p>
+                            </div>
+                        </div>
+                        <div class="donate__products-carts" category-products="cases">
+                            <div class="donate__products-item" product-id="kolt">
+                                <div class="donate__products-image">
+                                    <img src="./assets/images/products/case.png">
+                                </div>
+                                <p class="donate__products-name">Політ</p>
+                                <p class="donate__products-price">Придбати</p>
+                                <div class="donate__products-buttons">
+                                    <button modal-product="description" class="donate__products-button donate__products-info">Информация</button>
+                                    <button modal-product="buy" class="donate__products-button donate__products-buy">Купить</button>
+                                </div>
+                                <p class="donate__products-description">Політична збірка сервера маїнкрафт!</p>
+                            </div>
+                            <div class="donate__products-item" product-id="elprimo">
+                                <div class="donate__products-image">
+                                    <img src="./assets/images/products/case2.png">
+                                </div>
+                                <p class="donate__products-name">Сервер виживання</p>
+                                <p class="donate__products-price">Придбати</p>
+                                <div class="donate__products-buttons">
+                                    <button modal-product="description" class="donate__products-button donate__products-info">Информация</button>
+                                    <button modal-product="buy" class="donate__products-button donate__products-buy">Купить</button>
+                                </div>
+                                <p class="donate__products-description">Ванільний сервер з додатковими плагінами!</p>
+                            </div>
+                            <div class="donate__products-item" product-id="kapitangavs">
+                                <div class="donate__products-image">
+                                    <img src="./assets/images/products/case3.png">
+                                </div>
+                                <p class="donate__products-name">РПг сервер</p>
+                                <p class="donate__products-price">Придбати</p>
+                                <div class="donate__products-buttons">
+                                    <button modal-product="description" class="donate__products-button donate__products-info">Информация</button>
+                                    <button modal-product="buy" class="donate__products-button donate__products-buy">Купить</button>
+                                </div>
+                                <p class="donate__products-description">На ваші ідеї!</p>
+                            </div>
+                        </div>
+                        <div class="donate__products-carts" category-products="other">
+                            <div class="donate__products-item" product-id="kolt">
+                                <div class="donate__products-image">
+                                    <img src="./assets/images/products/unlock.png">
+                                </div>
+                                <p class="donate__products-name">Секретний сервер</p>
+                                <p class="donate__products-price">Придбати</p>
+                                <div class="donate__products-buttons">
+                                    <button modal-product="description" class="donate__products-button donate__products-info">Информация</button>
+                                    <button modal-product="buy" class="donate__products-button donate__products-buy">Купить</button>
+                                </div>
+                                <p class="donate__products-description">В зборці знаходиться, все шо ми покладемо!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="last">
+            <div class="_container">
+                <h3 class="last__title textstyle__title">Гравці придбають</h3>
+
+                <div class="last__box">
+                    <div class="last__box-item">
+                        
+                    </div>
+                    <div class="last__box-item">
+                        
+                    </div>
+                    <div class="last__box-item">
+                        
+                    </div>
+                    <div class="last__box-item">
+                        
+                    </div>
+                    <div class="last__box-item">
+                        
+                    </div>
+                    <div class="last__box-item">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__nav">
+                <div class="_container">
+                    <div class="footer__logo">
+                        <img src="./assets/images/logo.png">
+                    </div>
+                    <div class="footer__list">
+                        <div class="nav__list-item" href="dsc.gg/yuto_studio">Група ДС</div>
+                        <div class="nav__list-item">Правила</div>
+                    </div>
+                    <div class="footer__up">
+                        <img src="./assets/images/icons/arrow-up.svg">
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <div class="_container">
+                    <p class="footer__copyright-text">
+                        <span class="color-red"></span>Сайт захищений <span class="color-red">YutoStudio</span> з 2024 року!<br>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div modal-box class="modals">
+        <div modal-item="description" class="_container modals__item">
+            <p class="modals__title">Інформація про продукт</p>
+            <div class="modals__text">Empty...</div>
+            <div modal-close class="modals__close">
+                <div class="modals__close-line"></div>
+                <div class="modals__close-line"></div>
+            </div>
+        </div>
+
+        <div modal-item="buy" class="_container modals__item">
+            <div class="modals__row">
+                <div class="modals__cart">
+                    <div class="modals__product">
+                        <div class="modals__product-image">
+                            <img src="./assets/images/products/kolt.png">
+                        </div>
+
+                        <div class="modals__product-info">
+                            <p class="modals__product-name">
+                                Зборки
+                            </p>
+
+                            <p class="modals__product-price">
+                                99грн
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="modals__text">
+                        Натистувши на кновку, ви згоджуєтесь з <a href="#" class="textstyle__link">нашими умовами</a>.
+                    </div>
+                </div>
+                <div class="modals__cart modals__cart-reverse">
+                    <div class="modals__title">Купівля товара</div>
+
+                    <form class="modals__form" action="index.html">
+                        <input class="modals__input" type="text" id="nickname" name="nickname" placeholder="Никнейм">
+                        <div class="modals__amount">
+                            <p class="modals__amount-text">Скільки: </p>
+                            <div class="modals__amount-control">
+                                <div class="modals__amount-minus">-</div>
+
+                                <div class="modals__amount-result">1</div>
+
+                                <div class="modals__amount-plus">+</div>
+                            </div>
+                        </div>
+                        <div class="modals__payment">
+                            <div class="modals__payment-control">Варіанти оплати: <span class="modals__payment-selected">MasterCard</span></div>
+                            
+                            <div class="modals__payment-list">
+                                <div class="modals__payment-item">MonoBank</div>
+                                <div class="modals__payment-item">PrivatBank</div>
+                                <div class="modals__payment-item">Donatello</div>
+                            </div>
+                        </div>
+
+                        <button class="modals__button">Придбати</button>
+                    </form>
+                </div>
+            </div>
+
+            <div modal-close class="modals__close">
+                <div class="modals__close-line"></div>    
+                <div class="modals__close-line"></div>
+            </div>
+        </div>
+
+        <div modal-item="rules" class="_container modals__item">
+            <div class="modals__title">Правила студії</div>
+
+            <p class="modals__text">Правила</p>
+            <div modal-close class="modals__close">
+                <div class="modals__close-line"></div>
+                <div class="modals__close-line"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/scripts/main.js"></script>
+</body>
+</html>
